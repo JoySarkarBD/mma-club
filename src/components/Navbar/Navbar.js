@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Row className="flex-box">
 
                     {/* logo */}
-                    <Col xs={12} md={8}>
+                    <Col xs={12} md={6}>
                         <div className="d-flex align-items-center">
                             <img className="logo-size" src={logo} alt="" />
                             <h5>MMA<br /> CLUB</h5></div>
@@ -21,7 +21,7 @@ const Navbar = () => {
                     </Col>
 
                     {/* nav-links */}
-                    <Col className="nav" xs={6} md={4}>
+                    <Col className="nav" xs={6} md={6}>
                         <NavLink activeStyle={{
                             color: "red"
                         }} className="nav-links"
@@ -35,6 +35,13 @@ const Navbar = () => {
                             to="/courses"
                         >
                             Courses
+                        </NavLink>
+                        <NavLink activeStyle={{
+                            color: "red"
+                        }} className="nav-links"
+                            to="/services"
+                        >
+                            Services
                         </NavLink>
                         <NavLink activeStyle={{
                             color: "red"

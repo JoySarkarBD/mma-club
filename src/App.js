@@ -7,12 +7,13 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Services from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Courses from './components/Courses/Courses';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -31,9 +32,14 @@ function App() {
             <Home />
           </Route>
 
-          {/* service route */}
+          {/* courses route */}
           <Route exact path="/courses">
-            <Services />
+            <Courses />
+          </Route>
+
+          {/* services route */}
+          <Route exact path="/services">
+            <Services></Services>
           </Route>
 
           {/* about route */}

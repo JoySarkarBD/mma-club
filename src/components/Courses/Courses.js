@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import EachCourse from '../EachCourse/EachCourse';
 
-const Services = () => {
+const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -39,4 +39,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Courses;
