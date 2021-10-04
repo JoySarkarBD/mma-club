@@ -23,7 +23,7 @@ const Contact = () => {
                                     <div className="form-group col-12 flex-column d-flex"> <label className="form-control-label px-3">Whats in you mind?</label> <input type="text" id="ans" name="ans" placeholder="" onblur="validate(6)" /> </div>
                                 </div>
                                 <div className="row justify-content-center">
-                                    <div className="form-group col-sm-6"> <button type="submit" className="btn-block btn-primary w-75">Send</button> </div>
+                                    <div className="form-group col-sm-6"> <button type="submit" className="btn-block btn-danger w-75">Send</button> </div>
                                 </div>
                             </form>
                         </div>

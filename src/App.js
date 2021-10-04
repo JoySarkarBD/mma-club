@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
-import Services from './components/Services/Services';
+import Services from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
@@ -32,7 +32,7 @@ function App() {
           </Route>
 
           {/* service route */}
-          <Route exact path="/services">
+          <Route exact path="/courses">
             <Services />
           </Route>
 

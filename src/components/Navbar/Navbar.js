@@ -32,9 +32,9 @@ const Navbar = () => {
                         <NavLink activeStyle={{
                             color: "red"
                         }} className="nav-links"
-                            to="/services"
+                            to="/courses"
                         >
-                            Services
+                            Courses
                         </NavLink>
                         <NavLink activeStyle={{
                             color: "red"

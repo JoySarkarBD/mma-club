@@ -4,7 +4,7 @@ import './Home.css';
 import logoSlide from '../../logo/img-1.jpg'
 import logoSlideTwo from '../../logo/img-2.jpg'
 import logoSlideThree from '../../logo/img-3.jpg'
-import Ourservices from './OurServiceInHome/Ourservices';
+import OurCourse from './OurCourse/OurCourse';
 
 
 const Home = () => {
@@ -64,14 +64,14 @@ const Home = () => {
             {/* service section */}
             <div className="mt-5">
                 <div>
-                    <h1 className="mb-5 text-center">Our Services</h1>
+                    <h1 className="mb-5 text-center">Our <span className="text-danger">Courses</span></h1>
                 </div>
                 <div className="container mb-5">
                     <Row xs={1} md={2} className="g-4">
 
                         {courses.map(course => <Col>
                             <Card style={{ height: "300 px" }}>
-                                <Ourservices key={course.id} course={course} ></Ourservices>
+                                <OurCourse key={course.id} course={course} ></OurCourse>
                             </Card>
                         </Col>).slice(0, 4)
                         }

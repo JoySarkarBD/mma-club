@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import EachService from '../../components/EachService/EachService';
+import EachCourse from '../EachCourse/EachCourse';
 
 const Services = () => {
 
@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <div>
             <div className="mt-5 mb-5 text-center">
-                <h2>Our Services</h2>
+                <h2>Our <span className="text-danger">Courses</span></h2>
             </div>
 
             <div className="container mb-5">
@@ -21,11 +21,11 @@ const Services = () => {
 
                     {courses.map(course =>
                         <div className="col">
-                            <EachService
+                            <EachCourse
                                 key={course.key}
                                 course={course}
                             >
-                            </EachService>
+                            </EachCourse>
                         </div>)}
 
                 </div>
