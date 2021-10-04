@@ -4,7 +4,7 @@ import './Home.css';
 import logoSlide from '../../logo/img-1.jpg'
 import logoSlideTwo from '../../logo/img-2.jpg'
 import logoSlideThree from '../../logo/img-3.jpg'
-import { NavLink } from 'react-router-dom';
+import Ourservices from './OurServiceInHome/Ourservices';
 
 
 const Home = () => {
@@ -67,17 +67,9 @@ const Home = () => {
                 <div className="container mb-5">
                     <Row xs={1} md={2} className="g-4">
 
-                        {courses.map(course => <Col key={course.key}>
+                        {courses.map(course => <Col>
                             <Card style={{ height: "300 px" }}>
-                                <Card.Img className="img-size" variant="top" src={course.img} />
-                                <Card.Body>
-                                    <Card.Title>{course.name}</Card.Title>
-                                    <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
-                                    </Card.Text>
-                                    <NavLink to="/"> Read more...</NavLink>
-                                </Card.Body>
+                                <Ourservices key={course.id} course={course} ></Ourservices>
                             </Card>
                         </Col>).slice(0, 4)
                         }
