@@ -23,7 +23,6 @@ const EachService = (props) => {
                         <li className="list-group-item"><FontAwesomeIcon icon={faMobile} /> Access on mobile and TV</li>
                     </ul>
                 </div>
-                <button type="button" className="btn btn-primary"><FontAwesomeIcon icon={faShoppingCart} /> Add To Cart</button>
                 <button type="button" className="btn btn-success">Enroll Now</button>
             </div>
         </div>
