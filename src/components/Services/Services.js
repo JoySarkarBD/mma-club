@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import EachService from '../../EachService/EachService';
+import EachService from '../../components/EachService/EachService';
 
 const Services = () => {
 
