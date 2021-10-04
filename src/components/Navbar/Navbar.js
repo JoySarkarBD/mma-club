@@ -7,7 +7,6 @@ import ".//Navbar.css"
 
 const Navbar = () => {
 
-
     return (
         <div className="sticky-top bg-light text-light">
             <Container>
