@@ -1,4 +1,4 @@
-# Writers seminar
+# MMA CLUB
 
 This is the live site link(https://mma-club.netlify.app/).
 
