@@ -16,8 +16,9 @@ const Home = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        // slider
+
         <div>
+            {/* slider */}
             <div>
                 <Carousel>
                     <Carousel.Item>
@@ -60,6 +61,7 @@ const Home = () => {
                 </Carousel>
             </div>
 
+            {/* service section */}
             <div className="mt-5">
                 <div>
                     <h1 className="mb-5 text-center">Our Services</h1>
