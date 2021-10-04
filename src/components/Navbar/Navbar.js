@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="sticky-top bg-dark text-light">
+        <div className="sticky-top bg-light text-light">
             <Container>
                 <Row className="flex-box">
 
@@ -25,14 +25,14 @@ const Navbar = () => {
                     <Col className="nav" xs={6} md={4}>
                         <NavLink activeStyle={{
                             color: "red"
-                        }} className="nav-links text-light"
+                        }} className="nav-links"
                             to="/home"
                         >
                             Home
                         </NavLink>
                         <NavLink activeStyle={{
                             color: "red"
-                        }} className="nav-links text-light"
+                        }} className="nav-links"
                             to="/services"
                         >
                             Services
@@ -40,7 +40,7 @@ const Navbar = () => {
                         <NavLink activeStyle={{
                             color: "red"
                         }}
-                            className="nav-links text-light"
+                            className="nav-links"
                             to="/about"
                         >
                             About
@@ -48,7 +48,7 @@ const Navbar = () => {
                         <NavLink activeStyle={{
                             color: "red"
                         }}
-                            className="nav-links text-light"
+                            className="nav-links "
                             to="/contact"
                         >
                             Contact us
