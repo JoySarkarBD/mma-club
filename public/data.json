@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Bartitsu",
+        "key": 1,
+        "invented": "1899",
+        "img": "https://bartitsu.club/wp-content/uploads/2021/08/Bartitsu-Course-2021-e1630245179174.jpg",
+        "country": "Japan",
+        "fees": 100,
+        "description": "According to The Bartitsu Society, “In March of 1899, readers of an article appearing in London’s Pearson’s Magazine were intrigued to learn that a “New Art of Self Defence” had been introduced to their city. The author of the article and founder of the New Art was Edward William Barton-Wright… As detailed in the series of articles Barton-Wright authored between 1899 and 1902, his New Art – which he referred to as Bartitsu – was largely drawn from various ko-ryu (“old school”) forms of jiujitsu."
+    },
+    {
+        "name": "Boxing",
+        "key": 2,
+        "invented": "3000 BC",
+        "img": "https://img.olympicchannel.com/images/image/private/t_16-9_360-203_2x/f_auto/v1566299776/primary/tdsgdi8nzvppkde6yfiy",
+        "country": "Egypt",
+        "fees": 100,
+        "description": "While humans have fought in hand-to-hand combat since the dawn of human history, the earliest evidence of fist-fighting sporting contests date back to the ancient Near East in the 3rd and 2nd millennia BC.[2] The earliest evidence of boxing rules date back to Ancient Greece, where boxing was established as an Olympic game in 688 BC.[2] Boxing evolved from 16th- and 18th-century prizefights, largely in Great Britain, to the forerunner of modern boxing in the mid-19th century with the 1867 introduction of the Marquess of Queensberry Rules."
+    },
+    {
+        "name": "Judo – Japanese Grappling Martial Arts",
+        "key": 3,
+        "invented": "1860–1938",
+        "img": "https://www.kcpinternational.com/wp-content/uploads/2011/09/50208542308_12222e860b_c.jpg",
+        "fees": 100,
+        "description": "The early history of judo is inseparable from its founder, Japanese polymath and educator Kanō Jigorō (嘉納 治五郎, Jigoro Kano, 1860–1938), born Shinnosuke Jigorō (新之助 治五郎, Jigorō Shinnosuke). Kano was born into a relatively affluent family. His father, Jirosaku, was the second son of the head priest of the Shinto Hiyoshi shrine in Shiga Prefecture. He married Sadako Kano, daughter of the owner of Kiku-Masamune sake brewing company and was adopted by the family, changing his name to Kano. He ultimately became an official in the Shogunal government."
+    },
+    {
+        "name": "Kickboxing",
+        "key": 4,
+        "invented": "1960",
+        "img": "https://sportsmatik.com/uploads/matik-sports-corner/matik-know-how/kick-boxing_1493719111_80139.jpg",
+        "country": "Japan",
+        "fees": 100,
+        "description": "Kickboxing is practiced for general fitness, self-defense and as well as a contact sport. The sport was originated in Japan in the 1960s and the American version was originated in the 1970s. The first World Championships of the sport was organized by the Professional Karate Association (PKA) in September 1974."
+    },
+    {
+        "name": "Kung Fu – Techniques, Kicks, Forms (Taolu), etc.",
+        "key": 5,
+        "invented": "770 – 221 BC",
+        "img": "https://data.chinatravel.com//images/mobile-first/kung-fu/kung-fu.jpg",
+        "fees": 100,
+        "description": "In the West, Kung Fu exploded in popularity during the 1970s. This was due to the rise of Bruce Lee as a major movie star. Young people everywhere wanted to be like Bruce Lee and thus sought out Kung Fu training. According to European Wushu Federation, The first archaic forms of barehand fighting in ancient China appeared during the dynasties Xia, Shang and Zhou. Those forms, with the invention of bronze weapons became martial skills and were used for military training under the name Junlian (lit.army training). During the period of warring states (770 – 221 b.c.) the role of martial arts grew rapidly because of constant wars between counties."
+    },
+    {
+        "name": "Mixed Martial Arts",
+        "key": 6,
+        "invented": "1993",
+        "img": "https://static01.nyt.com/images/2012/03/15/fashion/15MMA3_SPAN/15MMA3-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        "country": "Ancient Greece",
+        "fees": 100,
+        "description": "Mixed Martial Arts (MMA) is a martial arts system that utilizes a variety of different martial arts techniques (i.e. techniques from Wrestling, Brazilian Jiu-Jitsu, Boxing, Muay Thai, Karate, etc.) in order to defeat an opponent… most famously in the “Octagon”. Most MMA training focuses on combining stand-up fighting skills (i.e. the knee strikes of Muay Thai) with ground fighting techniques (i.e. submission techniques of Brazilian Jiu-Jitsu). The UFC is probably the best known promoter of mixed martial art events on a global basis."
+    },
+    {
+        "name": "Ninjutsu",
+        "key": 7,
+        "invented": "As far back as Prince Shōtoku (572–622)",
+        "img": "https://www.irishtimes.com/polopoly_fs/1.3964716.1563873458!/image/image.jpg",
+        "country": "Japan.",
+        "fees": 100,
+        "description": "Ninjutsu (or more traditionally known as Ninpō) is a Japanese martial arts style focusing on the use of stealth and deception in order to defend oneself or fulfill an objective. The martial arts of Ninjutsu is commonly associated with the Japanese Shinobi (or Ninjas).This martial arts style utilizes a variety of martial arts skills such as takedowns, the use of ninjutsu weapons (i.e. Shuriken, Kunai, Shuko and Kyoketsu-Shoge) and stealth (for purposes of defense, information gathering, and other tasks)."
+    },
+    {
+        "name": "Tai Chi",
+        "key": 8,
+        "invented": "1100-1221 BC",
+        "img": "https://flabfix.com/wp-content/uploads/2021/01/tai-chi.jpg",
+        "country": "China",
+        "fees": 100,
+        "description": "Tai Chi is often seen as a “gentle” martial arts style because many seniors use its slow movements in order to improve their health & balance and to reduce stress. Nevertheless, Tai Chi also has “harder” sub-styles and variations that include vigorous self-defense techniques."
+    },
+    {
+        "name": "Wing Chun",
+        "key": 9,
+        "invented": "Approximately 300 years ago",
+        "img": "https://www.wingchun.asia/images/private-wing-chun-classes.jpg",
+        "fees": 100,
+        "description": "Wing Chun is a Chinese martial arts focused on strikes, grappling and weapons training. This popular martial arts has become even more well-known due to the success of the Ip Man movie series (where Donnie Yen played a Wing Chun Grandmaster)."
+    },
+    {
+        "name": "Wrestling",
+        "key": 10,
+        "invented": "15,000 year",
+        "img": "https://sportstar.thehindu.com/incoming/article35673822.ece/ALTERNATES/LANDSCAPE_590/TokyoOlympicsWrestling96500jpg-b2397jpg",
+        "country": "Egypt",
+        "fees": 100,
+        "description": "Wrestling is purely focused on grappling techniques and does not allow any kicking or punching. Nevertheless, wrestling and grappling skills are very useful in terms of adding a ground component to a martial artist’s overall skills. Many successful mixed martial artists (i.e. Randy Couture) have come from wrestling backgrounds."
+    }
+]

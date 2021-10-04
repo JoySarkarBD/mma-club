@@ -1,0 +1,19 @@
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-size{
+    width: 100px;
+}
+.nav{
+    font-size: 20px; 
+}
+.nav-links{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+.nav-links:hover{
+    color: red;
+}
