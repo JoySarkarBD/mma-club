@@ -1,68 +1,49 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-import logo from "../../logo/logo.png";
+import { Container, Form, FormControl, Nav, NavDropdown } from 'react-bootstrap';
 import ".//Navbar.css"
 
 
 const Navbar = () => {
 
     return (
-        <div className="sticky-top bg-light text-light">
-            <Container>
-                <Row className="flex-box">
-
-                    {/* logo */}
-                    <Col xs={12} md={6}>
-                        <div className="d-flex align-items-center">
-                            <img className="logo-size" src={logo} alt="" />
-                            <h5>MMA<br /> CLUB</h5></div>
-
-                    </Col>
-
-                    {/* nav-links */}
-                    <Col className="nav" xs={6} md={6}>
-                        <NavLink activeStyle={{
-                            color: "red"
-                        }} className="nav-links"
-                            to="/home"
+        <div>
+            <Navbar bg="light" expand="lg">
+                <Container fluid>
+                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Collapse id="navbarScroll">
+                        <Nav
+                            className="me-auto my-2 my-lg-0"
+                            style={{ maxHeight: '100px' }}
+                            navbarScroll
                         >
-                            Home
-                        </NavLink>
-                        <NavLink activeStyle={{
-                            color: "red"
-                        }} className="nav-links"
-                            to="/courses"
-                        >
-                            Courses
-                        </NavLink>
-                        <NavLink activeStyle={{
-                            color: "red"
-                        }} className="nav-links"
-                            to="/services"
-                        >
-                            Services
-                        </NavLink>
-                        <NavLink activeStyle={{
-                            color: "red"
-                        }}
-                            className="nav-links"
-                            to="/about"
-                        >
-                            About
-                        </NavLink>
-                        <NavLink activeStyle={{
-                            color: "red"
-                        }}
-                            className="nav-links "
-                            to="/contact"
-                        >
-                            Contact us
-                        </NavLink>
-                    </Col>
-                </Row>
-
-            </Container>
+                            <Nav.Link href="#action1">Home</Nav.Link>
+                            <Nav.Link href="#action2">Link</Nav.Link>
+                            <NavDropdown title="Link" id="navbarScrollingDropdown">
+                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action5">
+                                    Something else here
+                                </NavDropdown.Item>
+                            </NavDropdown>
+                            <Nav.Link href="#" disabled>
+                                Link
+                            </Nav.Link>
+                        </Nav>
+                        <Form className="d-flex">
+                            <FormControl
+                                type="search"
+                                placeholder="Search"
+                                className="me-2"
+                                aria-label="Search"
+                            />
+                            <Button variant="outline-success">Search</Button>
+                        </Form>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </div>
     );
 };

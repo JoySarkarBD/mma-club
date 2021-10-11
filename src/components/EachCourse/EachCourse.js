@@ -1,7 +1,10 @@
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+// import { faStickyNote, faFolder, faTasks, faInfinity, faMobile, faCertificate } from '@fortawesome/free-solid-svg-icons'
+// import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
-import { faStickyNote, faFolder, faTasks, faInfinity, faMobile, faCertificate, faShoppingCart, } from '@fortawesome/free-solid-svg-icons'
-import React from 'react';
+import { faStickyNote, faFolder, faTasks, faInfinity, faMobile, faCertificate } from '@fortawesome/free-solid-svg-icons'
 
 const EachCourse = (props) => {
 

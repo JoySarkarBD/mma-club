@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Carousel, Col, Row } from 'react-bootstrap';
 import './Home.css';
-import logoSlide from '../../logo/img-1.jpg'
-import logoSlideTwo from '../../logo/img-2.jpg'
-import logoSlideThree from '../../logo/img-3.jpg'
+import logoSlide from '../logo/img-1.jpg'
+import logoSlideTwo from '../logo/img-2.jpg'
+import logoSlideThree from '../logo/img-3.jpg'
 import OurCourse from './OurCourse/OurCourse';
 
 
